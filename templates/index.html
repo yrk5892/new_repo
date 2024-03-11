@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical_insurance_charges</title>
+</head>
+<body style="background-color: rgba(29, 136, 84, 0.947);">
+<!-- <body background-image="static/dhoni.jpg" background-repeat="no-repeat” background-size="cover”> -->
+    <!-- <center> -->
+    <center>
+    <h1> Health Insurance Form</h1>
+    <center>
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSURANCE -->
+    <br>
+    <center>
+    <img src='static\Insurance.jpg'>
+    <center>
+    <br><br>
+    <form method="get" action ="/predict_charges">
+        
+        <label>AGE:</label>
+        <input type="text" name ="age">
+        
+        <br>   						
+        <label>SEX:</label>
+        <select name="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option></select>
+         
+        <br>        
+        <label>BMI:</label>
+        <input type="text" name ="bmi">
+        <br>
+        <label>CHILDREN:</label>
+        <input type="text" name ="children">
+       
+        <br>
+        <label>SMOKER:</label>
+        <select name="smoker">
+            <option value="yes">Yes</option>
+            <option value="no">No</option></select><br><br>
+
+        <label>REGION:</label>
+ 
+        <select name="region">
+            <option value="southwest">Southwest</option>
+            <option value="southeast">Southeast</option>
+            <option value="northwest">Northwest</option>
+            <option value="northeast">Northeast</option></select>
+        
+        <br>
+        <br>
+        <input type="submit" value ="SUBMIT">
+     
+
+    </form>
+   
+    <br>
+    <br>
+    {{charges}}
+    <!-- </center>  -->
+</body>
+</html>
+

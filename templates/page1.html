@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>Medicl Insurance Price Prediction</title>
+</head>
+
+<body bgcolor = "#BDEDFF">
+	<h3 align="center"><I><font face="WildWest" size="6" color = "#4B5320">Medical Insurance Price Prediction</font></I></h3>
+	<form>
+	<table background ="static\img4.jfif" align="center" cellpadding = "10" border=1 >
+		 
+		 <!----- Name ---------------------------------------------------------->
+		<tr>
+		<td><font face = "Times New Roman" size = "3" color="7E3817"><b>Name</b></font></td>
+		<td><input type="text" name="Name"/></td>
+		</tr>
+		 
+		 
+		 
+		<!----- AGE ---------------------------------------------------------->
+		<tr>
+		<td><font face = "Times New Roman" size = "3" color="7E3817"><b>AGE</b></font></td>
+		<td><input type="text" name="AGE" maxlength="3"/></td>
+		</tr>
+		
+		<!----- BMI ---------------------------------------------------------->
+		<tr>
+		<td><font face = "Times New Roman" size = "3" color="7E3817"><b>BMI</b></font></td>
+		<td><input type="text" name="BMI" maxlength="3"/>
+		</td>
+		</tr>
+ 
+		<!----- SEX ----------------------------------------------------------->
+		<tr>
+		<td><font face = "Times New Roman" size = "3" color="7E3817"><b>Sex</b></font></td>
+		<td>
+			<font face = "Times New Roman" size = "3" color="7E3817"><b>Male</b></font> <input type="radio" name="Sex" value="Male" />
+			<font face = "Times New Roman" size = "3" color="7E3817"><b>Female</b></font><input type="radio" name="Sex" value="Female" />
+		</td>
+		</tr>
+		
+		<!----- Smoker ----------------------------------------------------------->
+		<tr>
+		<td><font face = "Times New Roman" size = "3" color="7E3817"><b>Smoker</b></font></td>
+		<td>
+			<font face = "Times New Roman" size = "3" color="7E3817"><b>Yes</b></font> <input type="radio" name="Smoker" value="Yes" />
+			<font face = "Times New Roman" size = "3" color="7E3817"><b>No </b></font><input type="radio" name="Smoker" value="No" />
+		</td>
+		</tr>
+		
+		<!----- Children ---------------------------------------------------------->
+		<tr>
+		<td><font face = "Times New Roman" size = "3" color="7E3817"><b>Children</b></font></td>
+		<td><input type="text" name="Children" maxlength="2"/>
+		</td>
+		</tr>
+		
+		<!----- Region ----------------------------------------------------------->
+		<tr>
+		<td><font face = "Times New Roman" size = "3" color="7E3817"><b>Region</b></font></td>
+		<td>
+		<select name="Region" id="Region">
+		<option value="NorthEast">"NorthEast"</option>
+		<option value="NorthWest">NorthWest</option>
+		<option value="SouthEast">SouthEast</option>
+		<option value="SouthWest">SouthWest</option>
+		</select>
+		</td>
+		</tr>
+		
+		<!-----Predict ------------------------------------------------->
+		<tr>
+		<td colspan="2" align="center">
+	    <input type="Submit" value="Predict"/>
+		
+		</td>
+		</tr>
+		
+	</table>
+</form>
+</body>
