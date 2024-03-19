@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, render_template, request
-from project_app.utils import MedicalInsurance
+from utils import MedicalInsurance
 import config
 
 app = Flask(__name__)
